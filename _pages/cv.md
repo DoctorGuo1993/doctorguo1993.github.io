@@ -25,6 +25,14 @@ Work experience 工作经历
 * 2021.07 - 2023.07: Postdoctor 博士后
   * Beihang University / Beihang University Hangzhou Innovation Institute
   * 北航 / 北航杭州创新研究院
+
+Research Area 研究领域
+======
+* Distributed/Decentralized Optimization 分布式/去中心化优化
+* Electricity/Carbon market 电力/碳权市场
+* Peer to Peer Energy Trading 点对点能源交易
+* Blockchain Consensus 区块链共识机制
+* Privacy Computing 隐私计算
   
 <!--
 Skills
