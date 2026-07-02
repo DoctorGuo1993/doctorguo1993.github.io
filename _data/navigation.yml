@@ -14,6 +14,9 @@ main:
   - title: "Publications 发表论文"
     url: /publications/
 
+  - title: "Project 项目"
+    url: /projects/
+
   #- title: "Talks"
     #url: /talks/    
 
