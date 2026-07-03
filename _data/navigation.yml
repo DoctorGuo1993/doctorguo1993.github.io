@@ -13,18 +13,15 @@ main:
     
   - title: "Publications 发表论文"
     url: /publications/
-
-  - title: "Project 项目"
-    url: /projects/
+  
+  - title: "Projects 项目"
+    url: /portfolio/
 
   #- title: "Talks"
     #url: /talks/    
 
   #- title: "Teaching"
     #url: /teaching/    
-    
-  #- title: "Portfolio"
-    #url: /portfolio/
         
   #- title: "Blog Posts"
     #url: /year-archive/
