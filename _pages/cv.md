@@ -11,20 +11,18 @@ redirect_from:
 
 Education 教育经历
 ======
-* Ph.D in Control Science and Engineering, Zhejiang University, 2021
-* 浙江大学控制科学与工程专业博士，2021年
-* B.S. in Control Science and Engineering, Zhejiang University, 2016
-* 浙江大学控制科学与工程专业学士，2016年
+* 2016.09 - 2021.06: Ph.D. in Control Science and Engineering, Zhejiang University 浙江大学控制科学与工程专业博士
+* 2019.09 - 2020.09: Visiting Ph.D. in Department of Electrical Engineering, Technical University of Denmark 丹麦技术大学电气工程系访问博士
+* 2012.09 - 2016.06: B.S. in Control Science and Engineering, Zhejiang University 浙江大学控制科学与工程专业学士
+
 
 Work experience 工作经历
 ======
 * 2023.08 - 至今：Associate Research Fellow 副研究员
-  * Beihang University Hangzhou Innovation Institute
-  * 北航杭州创新研究院
+  * Beihang University Hangzhou Innovation Institute 北航杭州创新研究院
 
 * 2021.07 - 2023.07: Postdoctor 博士后
-  * Beihang University / Beihang University Hangzhou Innovation Institute
-  * 北航 / 北航杭州创新研究院
+  * Beihang University 北航 / Beihang University Hangzhou Innovation Institute 北航杭州创新研究院
 
 Research Area 研究领域
 ======
