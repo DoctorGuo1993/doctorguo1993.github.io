@@ -7,29 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
-{% for item in site.portfolio %}
-<div style="margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
-  <h3>
-    <a href="{{ item.permalink }}">{{ item.title }}</a>
-  </h3>
-
-  <!-- 项目基础信息 -->
-  <p>
-    <strong>项目类型：</strong>{{ item.category }}<br>
-    <strong>执行周期：</strong>{{ item.start_date }} ～ {{ item.end_date }}<br>
-    <strong>项目来源：</strong>{{ item.project_source }}<br>
-    <strong>项目编号：</strong>{{ item.project_id }}<br>
-    <strong>经费总额：</strong>{{ item.total_funding }}<br>
-    <strong>本人职责：</strong>{{ item.duty }}
-  </p>
-
-  <!-- 项目简介 -->
-  <p>{{ item.excerpt }}</p>
-
-  <a href="{{ item.permalink }}" class="btn">查看详情</a>
-</div>
-{% endfor %}
-
-{% if site.portfolio.size == 0 %}
-<p>暂无项目内容，待更新</p>
+{% if site.portfolio.empty %}
+<p>暂无项目，敬请更新。</p>
 {% endif %}
+
+{% for project in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
