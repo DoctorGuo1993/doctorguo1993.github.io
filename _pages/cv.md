@@ -11,9 +11,12 @@ redirect_from:
 
 Education 教育经历
 ======
-* 2016.09 - 2021.06: Ph.D. in Control Science and Engineering, Zhejiang University 浙江大学控制科学与工程专业博士
-* 2019.09 - 2020.09: Visiting Ph.D. in Department of Electrical Engineering, Technical University of Denmark 丹麦技术大学电气工程系访问博士
-* 2012.09 - 2016.06: B.S. in Control Science and Engineering, Zhejiang University 浙江大学控制科学与工程专业学士
+* 2016.09 - 2021.06: Ph.D. 博士
+  * Control Science and Engineering, Zhejiang University 浙江大学控制科学与工程专业
+* 2019.09 - 2020.09: Visiting Ph.D 访问博士
+  * Department of Electrical Engineering, Technical University of Denmark 丹麦技术大学电气工程系
+* 2012.09 - 2016.06: B.S. 学士
+  * Control Science and Engineering, Zhejiang University 浙江大学控制科学与工程专业
 
 
 Work experience 工作经历
