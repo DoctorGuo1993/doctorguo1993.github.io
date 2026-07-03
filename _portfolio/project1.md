@@ -10,5 +10,4 @@ project_source: '国家自然科学基金青年项目'
 project_id: '51907000'
 total_funding: '240000 RMB'
 duty: '项目核心负责人'
-
 ---
