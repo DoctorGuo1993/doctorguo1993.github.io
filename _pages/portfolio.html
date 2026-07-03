@@ -1,13 +1,39 @@
 ---
 layout: archive
-title: ""
+title: "科研项目 Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<h2 style="margin-bottom:2rem;">在研 & 已完成科研项目</h2>
+<hr>
 
-{% for project in site.portfolio %}
-  {% include archive-single.html %}
+{% assign projects = site.portfolio | sort: "start_date" | reverse %}
+
+{% if projects.size == 0 %}
+<p>暂无项目数据，请检查 _portfolio 目录下 md 文件配置。</p>
+{% endif %}
+
+{% for item in projects %}
+<div style="margin: 2.5rem 0; padding-bottom: 1.5rem; border-bottom: 1px solid #ddd;">
+  <h3 style="margin:0;">
+    <a href="{{ item.permalink }}">{{ item.title }}</a>
+  </h3>
+
+  <div style="font-size: 0.96rem; line-height: 1.8; margin-top: 0.8rem;">
+    <p>
+      <strong>项目类型：</strong>{{ item.category }}<br>
+      <strong>执行周期：</strong>{{ item.start_date }} — {{ item.end_date }}<br>
+      <strong>项目来源：</strong>{{ item.project_source }}<br>
+      <strong>项目编号：</strong>{{ item.project_id }}<br>
+      <strong>总经费：</strong>{{ item.total_funding }}<br>
+      <strong>本人职责：</strong>{{ item.duty }}
+    </p>
+    <p style="color:#333;">{{ item.excerpt }}</p>
+  </div>
+
+  <a href="{{ item.permalink }}" class="btn btn--light-outline">查看项目详情</a>
+</div>
 {% endfor %}
