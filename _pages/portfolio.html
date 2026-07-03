@@ -7,9 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.portfolio.empty %}
-<p>暂无项目，敬请更新。</p>
-{% endif %}
 
 {% for project in site.portfolio %}
   {% include archive-single.html %}
