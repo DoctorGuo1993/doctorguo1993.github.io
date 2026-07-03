@@ -43,7 +43,6 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
--->
 
 Publications 发表论文
 ======
@@ -51,7 +50,6 @@ Publications 发表论文
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<!--
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
