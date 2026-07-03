@@ -9,10 +9,6 @@ author_profile: true
 
 {% assign projects = site.portfolio | sort: "start_date" | reverse %}
 
-{% if projects.size == 0 %}
-<p>暂无项目数据，请检查 _portfolio 目录下 md 文件配置。</p>
-{% endif %}
-
 {% for item in projects %}
 <div style="margin: 2.5rem 0; padding-bottom: 1.5rem; border-bottom: 1px solid #ddd;">
   <h3 style="margin:0;">
